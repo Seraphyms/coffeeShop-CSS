@@ -40,10 +40,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+    justify-content:center;
     padding: 5%;
 }
 
@@ -55,13 +53,21 @@ header .boutons{
     gap: 50px;
 }
 
+.histoiredebouger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 header img{
     margin:5%;
 }
 
-header .bouton img{
+.bouton img{
     width: 30px;
     height: 30px;
+    object-fit: contain;
 }
 
 .bouton{
@@ -76,4 +82,159 @@ header .bouton img{
     height: 30px;
     padding: 8px 16px;
     transition: all .3s ease-in-out;
+}
+
+.bouton:hover{
+    background-color: saddlebrown;
+    transform: scale(1.03);
+}
+
+#drinks {
+    padding: 40px;
+}
+
+h1 {
+    color: rgb(250, 162, 114);
+    display: flex;
+    justify-content: center;
+}
+
+.checkdrinks{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+article img{
+    width: 260px;
+    height: 260px;
+    object-fit: contain;
+}
+
+article{
+    background-color: rgb(255, 238, 220);
+    border-radius: 15px;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#app{
+    background-color: rgb(250, 162, 114);
+    color: white;
+}
+
+#app h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 4%;
+}
+
+#app .boutons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#app .bouton{
+    background-color: rgb(255, 255, 255);
+    color:rgb(250, 162, 114) ;
+    width: fit-content;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+#app .bouton:hover{
+    transform: scale(1.03);
+
+}
+
+
+#app .bouton:hover{
+    background-color: white;
+    color:rgb(250, 162, 114) ;
+}
+
+#appli{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+h3{
+    text-align: center;
+    white-space: inherit;
+
+}
+
+.uwu{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 30px;
+}
+
+.uwu #insta{
+    color:rgb(250, 162, 114) ;
+    margin: 3%;
+}
+
+.uwu img{
+    width:30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 1%;
+}
+
+footer{
+    background-color: rgb(255, 238, 220);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h4{
+    color: rgb(250, 162, 114);
+}
+
+.rangereste{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+
+}
+
+footer .boutons{
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+}
+
+.rangereste .bouton{
+    font-size: 0.8em;
+    padding: 5px;
+    width: fit-content;
+}
+
+.rangeliste{
+    display: flex;
+    margin-right: 5%;
+}
+footer ul{
+    list-style-position: inside;
+    text-align: left;
 }
