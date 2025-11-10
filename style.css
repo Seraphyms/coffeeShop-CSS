@@ -209,6 +209,7 @@ footer{
 footer h4{
     color: rgb(250, 162, 114);
     font-size: smaller;
+    margin: 0;
 }
 
 .rangereste{
